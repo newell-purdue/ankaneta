@@ -1,5 +1,14 @@
 <html>
-<H1>Hi Babe</H1>
+<H1 id="hi">Hi Babe</H1>
 
-<button type="button">Like</button>
+<button onclick="red()">Red</button>
+<button onclick="blue()">Blue</button>
+<script>
+function red() {
+    document.getElementById("hi").style.color = "red";
+}
+function blue() {
+    document.getElementById("hi").style.color = "blue";
+}
+</script>
 </html>
